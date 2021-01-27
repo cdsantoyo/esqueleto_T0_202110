@@ -34,14 +34,18 @@ public class TestModelo {
 	}
 
 	@Test
-	public void testAgregar() {
+	public void testAgregar() 
+	{
 		// TODO Completar la prueba
+		modelo.agregar("");
+		assertTrue(modelo.darTamano()== 1 ); 
 	}
 
 	@Test
 	public void testBuscar() {
 		setUp2();
 		// TODO Completar la prueba
+		
 	}
 
 	@Test
