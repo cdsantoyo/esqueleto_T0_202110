@@ -24,14 +24,19 @@ public class TestArregloDinamico {
 	}
 
 	@Test
-	public void testArregloDinamico() {
+	public void testArregloDinamico() 
+	{
 		// TODO
+		assertEquals(0, arreglo.darCapacidad());
+		assertTrue(arreglo!=null);
 	}
 
 	@Test
-	public void testDarElemento() {
+	public void testDarElemento() 
+	{
 		setUp2();
 		// TODO
+		assertEquals(0, Integer.parseInt(arreglo.darElemento(0)));
 	}
 
 }
